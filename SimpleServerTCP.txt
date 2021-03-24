@@ -1,0 +1,20 @@
+package sockets;
+
+import java.io.*;
+import java.net.*;
+import java.util.*;
+
+public class SimpleServerTCP {
+
+	public static void main(String args[]) throws Exception {
+		System.out.printf("Server gestartet\n");
+
+		// Erzeugen Sie hier die notwendigen Sockets
+		// Rufen Sie dann die Methode "protocol()" auf, um einen Client abzuarbeiten
+	}
+
+	public static void protocol(Socket socket) throws Exception {
+
+		// Hier wird ein einzelner Client bedient
+	}
+}

@@ -1,0 +1,25 @@
+package sockets;
+
+import java.io.*;
+import java.net.*;
+import java.util.*;
+
+public class SimpleClientTCP {
+	public static void main(String args[]) throws Exception {
+		System.out.printf("Client gestartet\n");
+		
+		Scanner inFromUser = new Scanner(System.in);
+		System.out.printf("Bitte IP-Adresse des Servers eingeben: ");
+		String serverIP = inFromUser.nextLine();
+		inFromUser.close();		
+
+		// Erzeugen Sie hier die notwendigen Sockets
+		// Rufen Sie dann die Methode "protocol()" auf,
+		// um mit dem Server zu kommunizieren.
+	}
+
+	public static void protocol(Socket socket) throws Exception {
+
+		// Kommunikation mit dem Server
+	}
+}
